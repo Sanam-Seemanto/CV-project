@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #E8EAEF;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    background-color: #E5F9F5;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.profile-bio{
+    float:left;
+    padding:30px;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    color:#1A968B;
+}
+.profile-contact{
+    float:right;
+    padding:30px;
+    width: 50%;
+}
+.profile-contact a{
+    text-decoration: none;
+    color:teal;
+    font-weight: bold;;
+}
+.profile-contact p a:hover{
+    text-decoration: underline;
+    color:tomato;
+}
+.clear-div{
+    clear:both;
+}
+hr{
+    border:3px solid black;
+    margin:20px auto;
+    width:100%;
+    border-bottom: none;
+}
+.profile-contact p{
+    color:black;
+}
+.profile-contact2{
+    float:right;
+    padding:30px;
+    width: 20%;
+}
+.profile-contact2 p a:hover{
+    text-decoration: underline;
+    color:tomato;
+}
+.profile-contact2 a{
+    text-decoration: none;
+    color:teal;
+    font-weight: bold;;
+}
+.profile-contact3{
+    float:left;
+    padding:30px;
+    width: 25%;
+    margin: 8px;
+}
+.profile-contact3 p a:hover{
+    text-decoration: underline;
+    color:tomato;
+}
+.profile-contact3 a{
+    text-decoration: none;
+    color:teal;
+    font-weight: bold;;
+}
+.foot{
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    width: 950px;
+    height: 75px;
+    text-align: center;
+}
